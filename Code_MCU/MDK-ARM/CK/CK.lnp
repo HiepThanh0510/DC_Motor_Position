@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"ck\startup_stm32f407xx.o"
+"ck\main.o"
+"ck\stm32f4xx_it.o"
+"ck\stm32f4xx_hal_msp.o"
+"ck\stm32f4xx_hal_tim.o"
+"ck\stm32f4xx_hal_tim_ex.o"
+"ck\stm32f4xx_hal_rcc.o"
+"ck\stm32f4xx_hal_rcc_ex.o"
+"ck\stm32f4xx_hal_flash.o"
+"ck\stm32f4xx_hal_flash_ex.o"
+"ck\stm32f4xx_hal_flash_ramfunc.o"
+"ck\stm32f4xx_hal_gpio.o"
+"ck\stm32f4xx_hal_dma_ex.o"
+"ck\stm32f4xx_hal_dma.o"
+"ck\stm32f4xx_hal_pwr.o"
+"ck\stm32f4xx_hal_pwr_ex.o"
+"ck\stm32f4xx_hal_cortex.o"
+"ck\stm32f4xx_hal.o"
+"ck\stm32f4xx_hal_exti.o"
+"ck\stm32f4xx_hal_uart.o"
+"ck\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "CK\CK.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CK.map" -o CK\CK.axf

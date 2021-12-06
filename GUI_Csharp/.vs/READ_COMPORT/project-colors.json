@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e3c9736a-0571-487b-923d-d72a9853a20c": {
+      "ProjectGuid": "e3c9736a-0571-487b-923d-d72a9853a20c",
+      "DisplayName": "READ_COMPORT",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
